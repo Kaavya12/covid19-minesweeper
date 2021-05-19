@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 	var boardWidth = window.innerWidth/2
 	window.addEventListener('resize', ()=>{
 		var boardWidth = window.innerWidth/2
-		document.querySelector('#board').style.marginRight = boardWidth/2
 		document.querySelector('#board').style.width = boardWidth
 		document.querySelector('#board').style.height = boardWidth
 		let cellsStyle = document.querySelectorAll(".cell").forEach(cell => {
