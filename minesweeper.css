@@ -1,7 +1,7 @@
 
 main {
   max-width: 610px;
-  margin: 0;
+  margin: auto;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
 
 .board, #board {
     border: 10px solid black;
-    margin:auto;
+    margin: auto;
 }
 
 .cell {
